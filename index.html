@@ -78,10 +78,13 @@
   
     <h2>Форма для заполнения:</h2>
     <form>
-        <label>ФИО: <input type="text" name="name"></label><br>
-        <label>Конт.телефон: <input type="tel" name="phone"></label><br>
-        <label>Email: <input type="email" name="email"></label><br>
-        <label>Дата рождения: <input type="date" name="birthdate"></label><br>
+        <label>ФИО: <input type="text" name="name" placeholder="Иванов Иван Иванович" required></label><br>
+           
+        <label>Конт.телефон: <input type="tel" name="phone" placeholder="89992223576" required></label><br>
+        
+        <label>Email: <input type="email" name="email" placeholder="hehei@gmial.com" required></label><br>
+        
+        <label>Дата рождения: <input type="date" name="birthofdate"></label><br>
         
         <span>Пол:</span>
         <label><input type="radio" name="gender" value="male"> Мужской</label>
@@ -111,6 +114,7 @@
 </body>
 
 </html>
+
 
 
 
